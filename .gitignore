@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+backend/node_modules/
+backend/dist/
+mobile/.dart_tool/
+mobile/build/
+
+# IDE files and folders
+.idea/
+.vscode/
+*.suo
+*.ntvsca
+*.njsproj
+*.sln
+*.sw?
+mobile/.idea/
+mobile/*.iml
+
+# Flutter files
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.metadata
+
+# Secrets / Configuration
+.env
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
