@@ -1,0 +1,69 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+ExistingDartDevelopmentServiceException: DartDevelopmentServiceException: JSON-RPC error 100: Existing VM service clients prevent DDS from taking control.
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.32.1, on Microsoft Windows [Version 10.0.26200.8457], locale tr-TR) [616ms]
+    [32m•[39m Flutter version 3.32.1 on channel stable at C:\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision b25305a883 (1 year ago), 2025-05-29 10:40:06 -0700
+    [32m•[39m Engine revision 1425e5e9ec
+    [32m•[39m Dart version 3.8.1
+    [32m•[39m DevTools version 2.45.1
+
+[32m[✓][39m Windows Version (Windows 11 or higher, 25H2, 2009) [1.356ms]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0) [521ms]
+    [32m•[39m Android SDK at C:\Users\mehmet.acilan\AppData\Local\Android\sdk
+    [31m✗[39m cmdline-tools component is missing.
+      Try installing or updating Android Studio.
+      Alternatively, download the tools from https://developer.android.com/studio#command-line-tools-only and make sure
+      to set the ANDROID_HOME environment variable.
+      See https://developer.android.com/studio/command-line for more details.
+    [31m✗[39m Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/to/windows-android-setup for more details.
+
+[32m[✓][39m Chrome - develop for the web [326ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[33m[!][39m Visual Studio - develop Windows apps (SQL Server Management Studio 22 22.3.2) [325ms]
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft SQL Server Management Studio 22\Release
+    [32m•[39m SQL Server Management Studio 22 version 22.3.11520.95
+    [31m✗[39m Visual Studio is missing necessary components. Please re-run the Visual Studio installer for the "Desktop
+      development with C++" workload, and include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[32m[✓][39m Android Studio (version 2025.3.4) [9ms]
+    [32m•[39m Android Studio at C:\Program Files\Android\Android Studio
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build 21.0.10+-14961533-b1163.108)
+
+[32m[✓][39m Connected device (3 available) [178ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.8457]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 148.0.7778.179
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 148.0.3967.96
+
+[32m[✓][39m Network resources [418ms]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
