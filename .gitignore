@@ -1,0 +1,6 @@
+# Flutter/Dart temporary files
+*.log
+.dart_tool/
+build/
+ios/
+andorid/
